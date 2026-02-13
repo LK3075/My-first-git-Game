@@ -34,6 +34,7 @@ operator_key = {
     "AWC": "Avanti West Coast",
     "XC": "Cross Country ",
     "TWM": "Tyne and Wear Metro",
+    "GA": "Greater Anglia"
 }
 
 country_key = {
