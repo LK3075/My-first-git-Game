@@ -3,6 +3,8 @@
 import json
 import random
 
+
+
 with open("stat.json", "r", encoding="utf-8") as f:
     stations = json.load(f)
 
@@ -28,7 +30,7 @@ operator_key = {
     "SER": "South Eastern Railway",
     "SN": "Southern",
     "SCR": "Scotrail",
-    "SWR": "South West Railway",
+    "SWR": "South Western Railway",
     "TL": "Thamslink",
     "TPE": "Transpennine Express",
     "AWC": "Avanti West Coast",
@@ -38,25 +40,34 @@ operator_key = {
 }
 
 country_key = {
-    "E": "England",
+    "SE": "South East England",
+    "SW":"South West England",
+    "EA":"East Anglia",
+    "EM":"East Midlands",
+    "WM":"West Midlands",
+    "NE":"North East England",
+    "NW":"North West England",
+    "YH":"Yorkshire and Humber",
+    "LON":"London",
     "W": "Wales",
     "S": "Scotland",
 }
 
 fun_key ={
+    "word":"This station has more than one word in its name",
     "term":"Services can often terminate here",
     "thro":"This station has through lines",
+    "dep": "This station is near depot",
     "jnc":"Services can branch off the line after departing before reaching another station",
+    "int":"This station is a common interchange for other services/transport",
     "sea":"This station is near the seaside",
     "fut":"This station is near a stadium",
     "air":"This station is near an airport",
     "uni":"This station is near a university",
     "park":"This is a parkway station",
     "spa":"This is a spa station",
-    "word":"This station has more than one word in its name",
-    "town":"This station serves a small town/village",
+    "town":"This station serves a town/village",
     "city":"This station serves part of/all of a large town/city",
-    "dep":"This station is near depot"
 }
 
 
@@ -110,8 +121,8 @@ guessed_wrong = [
 
 total_score = 0
 rounds = 5
-starting_clues = 3
-max_guesses = 6
+starting_clues = 4
+max_guesses = 10
 
 print(f'\nGuess the UK Train Station!')
 print(random.choice(start_messages))
@@ -129,7 +140,7 @@ for round_number in range(1, rounds + 1):
     country = country_key.get(station["country"],station["country"])
 
     Clues = [
-    f"country: {country}",
+    f"Region: {country}",
     f"Number of Platforms: {station['platforms']}",
     f"Operators: {', '.join(full_ops)}",
     f"Passing services regularly: {station['passing services regularly']}",
@@ -138,7 +149,7 @@ for round_number in range(1, rounds + 1):
 
     ]
 
-    for i in range(1, 4):
+    for i in range(1, 10):
         key =  f"Extra Fact{i}"
         if key in station and station[key] !="":
             fact_code = station[key]
@@ -153,9 +164,9 @@ for round_number in range(1, rounds + 1):
 
     guessed_correctly = False
 
-    while clues_to_show <= len(Clues) and guesses < max_guesses:
+    while guesses < max_guesses:
         print('\nClues so Far:')
-        for i in range(clues_to_show):
+        for i in range(min(clues_to_show, len(Clues))):
             print('-', Clues[i])
 
         guess = input(random.choice(guess_prompts))
@@ -173,7 +184,8 @@ for round_number in range(1, rounds + 1):
 
         else:
           print('Incorrect...')
-          clues_to_show += 1
+          if clues_to_show < len(Clues):
+             clues_to_show += 1
 
     if not guessed_correctly:
         print(random.choice(guessed_wrong).format(station['name']))
