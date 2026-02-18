@@ -97,3 +97,31 @@ input#guessInput {
     opacity: 1;
     transform: scale(1);
 }
+
+/* Only apply on screens smaller than 600px (mobile) */
+@media only screen and (max-width: 600px) {
+
+    /* Make buttons bigger and full width */
+    .btn {
+        padding: 15px 30px;   /* bigger touch area */
+        font-size: 1.2em;     /* bigger text */
+        width: 80%;           /* take more width */
+    }
+
+    /* Make input bigger and full width */
+    input#guessInput {
+        padding: 15px;
+        font-size: 1.2em;
+        width: 90%;
+    }
+
+    /* Adjust clues box */
+    .clues {
+        width: 90%;
+        padding: 15px;
+    }
+
+    /* Optional: smaller headers */
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
+}
