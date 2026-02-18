@@ -184,7 +184,7 @@ input#guessInput {
 
     /* Bigger play/menu buttons */
     #playBtn, #playAgainBtn, #menuBtn {
-        width: 85%;
+        width: 100%;
         font-size: 1.6em;
         padding: 18px;
         margin: 10px auto;

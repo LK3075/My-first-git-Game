@@ -96,7 +96,7 @@
         "operators": [
             "TFW"
         ],
-        "has terminus platforms": "no",
+        "has terminus platforms": "yes",
         "passing services regularly": "no",
         "Extra Fact1": "uni",
         "Extra Fact2": "sea",
@@ -3083,6 +3083,475 @@
         "Extra Fact4": "",
         "Extra Fact5": "",
         "image": "images/Durham.jpg"
+    },
+    {
+        "name": "Eaglescliffe",
+        "country": "NE",
+        "platforms": 2,
+        "operators": [
+            "GC",
+            "NT",
+            "TPE"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Eaglescliffe.jpg"
+    },
+    {
+        "name": "Ealing Broadway",
+        "country": "LON",
+        "platforms": 9,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Ealing Broadway.jpg"
+    },
+    {
+        "name": "Earlestown",
+        "country": "NW",
+        "platforms": 5,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Earlestown.jpg"
+    },
+    {
+        "name": "Earley",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Earley.jpg"
+    },
+    {
+        "name": "East Croydon",
+        "country": "LON",
+        "platforms": 6,
+        "operators": [
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/East Croydon.jpg"
+    },
+    {
+        "name": "East Didsbury",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT",
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/East Didsbury.jpg"
+    },
+    {
+        "name": "East Dulwich",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "yes",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/East Dulwich.jpg"
+    },
+    {
+        "name": "East Grinstead",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "term",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/East Grinstead.jpg"
+    },
+    {
+        "name": "East Linton",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "NT",
+            "TPE"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/East Linton.jpg"
+    },
+    {
+        "name": "East Midlands Parkway",
+        "country": "EM",
+        "platforms": 4,
+        "operators": [
+            "EMR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "air",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/East Midlands Parkway.jpg"
+    },
+    {
+        "name": "Eastbourne",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "int",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Eastbourne.jpg"
+    },
+    {
+        "name": "Eastbrook",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Eastbrook.jpg"
+    },
+    {
+        "name": "Ebbsfleet International",
+        "country": "SE",
+        "platforms": 6,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "int",
+        "Extra Fact4": "word",
+        "Extra Fact5": "thro",
+        "image": "images/Ebbsfleet International.jpg"
+    },
+    {
+        "name": "Ebbw Vale Parkway",
+        "country": "W",
+        "platforms": 1,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "park",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Ebbw Vale Parkway.jpg"
+    },
+    {
+        "name": "Ebbw Vale Town",
+        "country": "W",
+        "platforms": 1,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Ebbw Vale Town.jpg"
+    },
+    {
+        "name": "Edge Hill",
+        "country": "NW",
+        "platforms": 4,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Edge Hill.jpg"
+    },
+    {
+        "name": "Edinburgh Gateway",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "int",
+        "Extra Fact2": "word",
+        "Extra Fact3": "air",
+        "Extra Fact4": "city",
+        "Extra Fact5": "",
+        "image": "images/Edinburgh Gateway.jpg"
+    },
+    {
+        "name": "Edinburgh Park",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Edinburgh Park.jpg"
+    },
+    {
+        "name": "Edinburgh Waverley",
+        "country": "S",
+        "platforms": 20,
+        "operators": [
+            "AWC",
+            "LNER",
+            "LUMO",
+            "SCR",
+            "TPE",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "uni",
+        "Extra Fact6": "city",
+        "image": "images/Edinburgh Waverley.jpg"
+    },
+    {
+        "name": "Elephant and Castle",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "SER",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Elephant and Castle.jpg"
+    },
+    {
+        "name": "Ely",
+        "country": "EA",
+        "platforms": 3,
+        "operators": [
+            "EMR",
+            "GA",
+            "GN",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "city",
+        "image": "images/Ely.jpg"
+    },
+    {
+        "name": "Epsom",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "SN",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Epsom.jpg"
+    },
+    {
+        "name": "Epsom Downs",
+        "country": "SE",
+        "platforms": 1,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "word",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Epsom Downs.jpg"
+    },
+    {
+        "name": "Euxton Balshaw Lane",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Euxton Balshaw Lane.jpg"
+    },
+    {
+        "name": "Exeter Central",
+        "country": "SW",
+        "platforms": 3,
+        "operators": [
+            "GWR",
+            "SWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "uni",
+        "Extra Fact4": "city",
+        "Extra Fact5": "",
+        "image": "images/Exeter Central.jpg"
+    },
+    {
+        "name": "Exeter St Davids",
+        "country": "SW",
+        "platforms": 6,
+        "operators": [
+            "GWR",
+            "SWR",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "dep",
+        "Extra Fact4": "jnc",
+        "Extra Fact5": "int",
+        "Extra Fact6": "uni",
+        "Extra Fact7": "city",
+        "image": "images/Exeter St Davids.jpg"
+    },
+    {
+        "name": "Exeter St Thomas",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Exeter St Thomas.jpg"
+    },
+    {
+        "name": "Exmouth",
+        "country": "SW",
+        "platforms": 1,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Exmouth.jpg"
     },
     {
         "name": "",
