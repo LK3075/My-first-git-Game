@@ -78,6 +78,7 @@ const maxGuesses = 10;
 
 let totalScore = 0;
 let stations = [];
+let allStations = [];
 
 // === DOM elements ===
 const menu = document.getElementById("menu");
@@ -93,6 +94,33 @@ const playAgainBtn = document.getElementById("playAgainBtn");
 const menuBtn = document.getElementById("menuBtn");
 const gameMessage = document.getElementById("gameMessage");
 const stationImage = document.getElementById("stationImage");
+const autocompleteList = document.getElementById("autocompleteList");
+const scoreDisplay = document.getElementById("scoreDisplay");
+const guessesDisplay = document.getElementById("guessesDisplay");
+
+
+guessInput.addEventListener("input", function() {
+    const value = this.value.toLowerCase();
+    autocompleteList.innerHTML = "";
+
+    if (!value) return;
+
+    const matches = allStations
+        .map(s => s.name)
+        .filter(name => name.toLowerCase().includes(value))
+        .slice(0, 8); // max 8 suggestions
+
+    matches.forEach(name => {
+        const item = document.createElement("div");
+        item.textContent = name;
+        item.onclick = () => {
+            guessInput.value = name;
+            autocompleteList.innerHTML = "";
+            guessInput.focus();
+        };
+        autocompleteList.appendChild(item);
+    });
+});
 
 function showStationImage() {
     if (!currentStation.image) return;
@@ -124,7 +152,11 @@ guessInput.addEventListener("keypress", function(event) {
 // === Load Stations JSON ===
 fetch("StatList.json")
     .then(res => res.json())
-    .then(data => { stations = data; console.log(`${stations.length} stations loaded`); })
+    .then(data => {
+        stations = [...data];      // game list
+        allStations = [...data];   // autocomplete list
+        console.log("Loaded", stations.length, "stations");
+    })
     .catch(err => console.error("Error loading JSON:", err));
 
 // === Helper ===
@@ -136,6 +168,12 @@ let currentStation = null;
 let currentClues = [];
 let cluesToShow = 0;
 let guesses = 0;
+
+function updateHUD() {
+    scoreDisplay.textContent = "Score: " + totalScore;
+    guessesDisplay.textContent = "Guesses Left: " + (maxGuesses - guesses);
+}
+
 
 // === Start Game ===
 playBtn.onclick = function() {
@@ -149,32 +187,41 @@ playBtn.onclick = function() {
     setTimeout(() => { gameMessage.innerHTML = ""; }, 2000);
     startRound();
 };
-
 function startRound() {
+    // Hide previous round's station image
     stationImage.style.display = "none";
     stationImage.classList.remove("show");
 
+    // Clear guess input
+    guessInput.value = "";
 
+    // Clear autocomplete dropdown
+    autocompleteList.innerHTML = "";
+
+    // If the game is over
     if (currentRound > totalRounds) {
         clueText.innerHTML = `Game Over! Total Score: ${totalScore}`;
         guessInput.style.display = "none";
         submitGuess.style.display = "none";
-
         endButtons.style.display = "block";
         return;
     }
 
+    // Show input and button for new round
     guessInput.style.display = "inline-block";
     submitGuess.style.display = "inline-block";
 
     guesses = 0;
     cluesToShow = startingClues;
 
+    updateHUD();
+
+
     roundText.innerHTML = `Round ${currentRound} of ${totalRounds}`;
 
-    // Pick station
-    const idx = Math.floor(Math.random()*stations.length);
-    currentStation = stations.splice(idx,1)[0];
+    // Pick a random station
+    const idx = Math.floor(Math.random() * stations.length);
+    currentStation = stations.splice(idx, 1)[0];
 
     // Build clues
     const fullOps = currentStation.operators.map(op => operatorKey[op] || op);
@@ -188,18 +235,21 @@ function startRound() {
         `Has terminus platforms: ${currentStation["has terminus platforms"]}`
     ];
 
-    for(let i=1;i<=10;i++){
+    for (let i = 1; i <= 10; i++) {
         const key = `Extra Fact${i}`;
-        if(currentStation[key]) currentClues.push(`Fun Fact: ${funKey[currentStation[key]] || currentStation[key]}`);
+        if (currentStation[key]) currentClues.push(`Fun Fact: ${funKey[currentStation[key]] || currentStation[key]}`);
     }
 
-    currentClues = currentClues.sort(() => Math.random()-0.5);
+    currentClues = currentClues.sort(() => Math.random() - 0.5);
     updateClues();
-    resultText.innerHTML = "";
-    guessInput.value = "";
 
+    resultText.innerHTML = "";
+    guessInput.focus();
+
+    // Assign the guess handler
     submitGuess.onclick = handleGuess;
 }
+
 
 function handleGuess() {
     const guess = guessInput.value.trim();
@@ -207,11 +257,13 @@ function handleGuess() {
     guessInput.value = "";   // clears the box
     guessInput.focus();      // puts the cursor back in the box
 
-    guesses++;
+    guesses++;               // increment guesses first
+    updateHUD();             // update score & guesses left
 
     if(guess.toLowerCase() === currentStation.name.toLowerCase()){
-        const points = currentClues.length - cluesToShow + 1;
+        const points = Math.max(1, maxGuesses - guesses + 1); // guess-based scoring
         totalScore += points;
+        updateHUD();         // update after adding points
         resultText.innerHTML = `${randomChoice(correctMessages)} You scored ${points}. Total: ${totalScore}`;
 
         showStationImage();
@@ -220,24 +272,26 @@ function handleGuess() {
         submitGuess.style.display = "none";
 
         currentRound++;
-        setTimeout(startRound,2000);
+        setTimeout(startRound,4000);
     } else {
         resultText.innerHTML = randomChoice(incorrectMessages);
         if(cluesToShow < currentClues.length) cluesToShow++;
         updateClues();
+
         if(guesses >= maxGuesses){
             resultText.innerHTML = randomChoice(guessedWrong).replace("{}",currentStation.name);
 
             showStationImage();
 
-
             guessInput.style.display = "none";
             submitGuess.style.display = "none";
 
             currentRound++;
-            setTimeout(startRound,2000);
+            setTimeout(startRound,4000);
         }
     }
+
+
 }
 
 function updateClues(){
@@ -256,7 +310,9 @@ playAgainBtn.onclick = function() {
     fetch("StatList.json")
         .then(res => res.json())
         .then(data => {
-            stations = data;
+            stations = [...data];
+            allstations = [...data];
+
             endButtons.style.display = "none";
             startRound();
         });

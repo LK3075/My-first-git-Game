@@ -2,8 +2,8 @@ import json
 import os
 
 # === SETTINGS ===
-json_file = "web/StatList.json"       # Path to your JSON file
-images_folder = "web/images"          # Folder containing all station images
+json_file = "StatList.json"       # Path to your JSON file
+images_folder = "images"          # Folder containing all station images
 extensions = [".jpg", ".jpeg", ".png"]  # Allowed image file types
 
 # === Load JSON ===

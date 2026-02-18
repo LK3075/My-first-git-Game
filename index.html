@@ -10,7 +10,7 @@
 <!-- Menu Screen -->
 <div id="menu" class="screen">
     <h1>🚂 UK Station Guessing Game</h1>
-    <p>Test your railway knowledge! Guess the station from clues.</p>
+    <p>Test your railway knowledge! Guess the station from clues given.</p>
     <button id="playBtn" class="btn">Play</button>
 </div>
 
@@ -19,10 +19,20 @@
     <h2 id="roundText"></h2>
     <div id="clueText" class="clues"></div>
 
+    <div class="hud">
+    <div id="scoreDisplay">Score: 0</div>
+    <div id="guessesDisplay">Guesses Left: 0</div>
+</div>
+
+
     <div class="guess-area">
-        <input id="guessInput" placeholder="Type your guess here">
-        <button id="submitGuess" class="btn">Guess</button>
+    <div class="autocomplete-container">
+        <input id="guessInput" type="text" autocomplete="off" placeholder="Type your guess here">
+        <div id="autocompleteList" class="autocomplete-items"></div>
     </div>
+    <button id="submitGuess" class="btn">Guess</button>
+</div>
+
 
     <p id="resultText" class="result"></p>
     <p id="scoreText" class="score"></p>

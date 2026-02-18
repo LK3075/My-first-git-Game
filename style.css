@@ -4,7 +4,7 @@ body {
     color: #FFFFFF;
     text-align: center;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 .screen {
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
     color: #FAFAFA;
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 .clues {
@@ -35,20 +35,36 @@ h2 {
     font-family: "Lucida Sans";
 }
 
+/* ===== FIXED GUESS AREA ===== */
 .guess-area {
-    margin: 20px 0;
+    display: flex;           /* arrange input and button horizontally */
+    flex-wrap: nowrap;       /* do not allow wrapping */
+    justify-content: center; /* center in screen */
+    align-items: center;     /* vertical align */
+    gap: 10px;               /* spacing between input and button */
+    width: 90%;              /* overall width of container */
+    max-width: 600px;        /* optional max width */
+    margin: 20px auto;
+    position: relative;      /* needed for autocomplete */
+}
+
+.autocomplete-container {
+    position: relative;
+    flex: 1 1 70%;           /* input takes ~70% of row */
+    min-width: 200px;        /* don't get too narrow */
 }
 
 input#guessInput {
+    width: 100%;             /* fills container exactly */
     padding: 10px;
     font-size: 1em;
-    width: 60%;
-    max-width: 400px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    box-sizing: border-box;  /* crucial so padding doesn't overflow */
 }
 
 .btn {
+    flex: 0 0 auto;          /* button keeps its natural width */
     padding: 10px 20px;
     font-size: 1em;
     background: #228C0B;
@@ -77,51 +93,94 @@ input#guessInput {
 
 /* ===== Station Image Styling ===== */
 #stationImage {
-    display: none;              /* hidden until round ends */
-    margin: 25px auto;          /* center horizontally */
+    display: none;
+    margin: 25px auto;
     max-width: 85%;
     max-height: 400px;
     height: auto;
-
-    border: 5px solid #1a73e8;
+    border: 5px solid #38ACB5;
     border-radius: 14px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.35);
-
     opacity: 0;
     transform: scale(0.95);
-    transition: opacity 0.8s ease, transform 0.8s ease;
+    transition: opacity 1.2s ease, transform 1.2s ease;
 }
 
-/* When the image appears */
 #stationImage.show {
     opacity: 1;
     transform: scale(1);
 }
 
-/* Only apply on screens smaller than 600px (mobile) */
+/* Only apply on screens smaller than 600px */
 @media only screen and (max-width: 600px) {
-
-    /* Make buttons bigger and full width */
     .btn {
-        padding: 15px 30px;   /* bigger touch area */
-        font-size: 1.2em;     /* bigger text */
-        width: 80%;           /* take more width */
+        padding: 15px 30px;
+        font-size: 1.2em;
+        width: 80%;
     }
 
-    /* Make input bigger and full width */
     input#guessInput {
         padding: 15px;
         font-size: 1.2em;
-        width: 90%;
     }
 
-    /* Adjust clues box */
     .clues {
         width: 90%;
         padding: 15px;
     }
 
-    /* Optional: smaller headers */
     h1 { font-size: 2em; }
     h2 { font-size: 1.5em; }
+
+    .guess-area {
+        flex-direction: column; /* stack input above button on mobile */
+        gap: 20px;
+    }
+
+   .autocomplete-container {
+    position: relative;
+    flex: 1 1 70%;   /* this controls how wide the input is relative to the guess button */
+    min-width: 300px; /* won't shrink below this */
+    max-width: 300px; /* set a smaller max width for desktop */
+    }
 }
+
+/* ===== Autocomplete Styling ===== */
+.autocomplete-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 98%;
+    z-index: 999;
+    background: white;
+    border: 2px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: #000;
+    border-radius: 8px;  /* curves the corners */
+}
+
+.autocomplete-items div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.autocomplete-items div:hover {
+    background-color: #BFBFBF;
+}
+.hud {
+    display: flex;           /* horizontal layout */
+    position: absolute;      /* float over the page */
+    top: 50px;               /* spacing from top */
+    right: 50px;             /* spacing from right edge */
+    gap: 40px;               /* space between score and guesses */
+    font-size: 2em;
+    font-weight: bold;
+    z-index: 1000;           /* ensure it's on top of other elements */
+}
+
+
+
+#scoreDisplay { color: #EBEBEB; }      /* gold */
+#guessesDisplay { color: #EBEBEB; }    /* green */
