@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>UK Station Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Menu Screen -->
+<div id="menu" class="screen">
+    <h1>🚂 UK Station Guessing Game</h1>
+    <p>Test your railway knowledge! Guess the station from clues.</p>
+    <button id="playBtn" class="btn">Play</button>
+</div>
+
+<!-- Game Screen -->
+<div id="game" class="screen" style="display:none;">
+    <h2 id="roundText"></h2>
+    <div id="clueText" class="clues"></div>
+
+    <div class="guess-area">
+        <input id="guessInput" placeholder="Type your guess here">
+        <button id="submitGuess" class="btn">Guess</button>
+    </div>
+
+    <p id="resultText" class="result"></p>
+    <p id="scoreText" class="score"></p>
+</div>
+
+<div id="gameMessage" class="result"></div>
+
+<img id="stationImage" src="" alt="Station Image" style="max-width: 500px; display: none; margin-top: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);">
+
+
+<div id="endButtons" style="display:none; margin-top:20px;">
+    <button id="playAgainBtn" class="btn">Play Again</button>
+    <button id="menuBtn" class="btn">Menu</button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+

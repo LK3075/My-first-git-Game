@@ -1,0 +1,2127 @@
+[
+    {
+        "name": "Abbey Wood",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "SER",
+            "TFL"
+        ],
+        "has terminus platforms": "Yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "word",
+        "Extra Fact4": "city",
+        "Extra Fact5": "int",
+        "image": "images/Abbey Wood.jpg"
+    },
+    {
+        "name": "Abercynon",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "image": "images/Abercynon.jpg"
+    },
+    {
+        "name": "Aberdare",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "fut",
+        "Extra Fact3": "town",
+        "image": "images/Aberdare.jpg"
+    },
+    {
+        "name": "Aberdeen",
+        "country": "S",
+        "platforms": 6,
+        "operators": [
+            "SCR",
+            "XC",
+            "LNER"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "city",
+        "Extra Fact4": "int",
+        "image": "images/Aberdeen.jpg"
+    },
+    {
+        "name": "Aberdour",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "sea",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "image": "images/Aberdour.jpg"
+    },
+    {
+        "name": "Abergavenny",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": "images/Abergavenny.jpg"
+    },
+    {
+        "name": "Aberystwyth",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "uni",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "term",
+        "image": "images/Aberystwyth.jpg"
+    },
+    {
+        "name": "Acton Bridge",
+        "country": "NW",
+        "platforms": 3,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "image": "images/Acton Bridge.jpg"
+    },
+    {
+        "name": "Acton Central",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "image": "images/Acton Central.jpg"
+    },
+    {
+        "name": "Acton Main Line",
+        "country": "LON",
+        "platforms": 3,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "image": "images/Acton Main Line.png"
+    },
+    {
+        "name": "Alderly Edge",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "word",
+        "image": "images/Alderly Edge.jpg"
+    },
+    {
+        "name": "Aldershot",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "fut",
+        "Extra Fact3": "jnc",
+        "image": "images/Aldershot.jpg"
+    },
+    {
+        "name": "Alloa",
+        "country": "S",
+        "platforms": 1,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "thro",
+        "image": "images/Alloa.jpg"
+    },
+    {
+        "name": "Alnmouth",
+        "country": "NE",
+        "platforms": 2,
+        "operators": [
+            "LNER",
+            "TPE",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "",
+        "image": "images/Alnmouth.jpg"
+    },
+    {
+        "name": "Alsager",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "EMR",
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": "images/Alsager.jpg"
+    },
+    {
+        "name": "Alton",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "image": "images/Alton.jpg"
+    },
+    {
+        "name": "Andover",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": "images/Andover.jpg"
+    },
+    {
+        "name": "Anniesland",
+        "country": "S",
+        "platforms": 3,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "term",
+        "Extra Fact3": "city",
+        "image": "images/Anniesland.jpg"
+    },
+    {
+        "name": "Apsley",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": "images/Apsley.jpg"
+    },
+    {
+        "name": "Ardwick",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "dep",
+        "Extra Fact3": "uni",
+        "image": "images/Ardwick.jpg"
+    },
+    {
+        "name": "Ashburys",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "uni",
+        "Extra Fact3": "dep",
+        "image": "images/Ashburys.jpg"
+    },
+    {
+        "name": "Ashchurch for Tewkesbury",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "image": "images/Ashchurch for Tewkesbury.jpg"
+    },
+    {
+        "name": "Ashford International",
+        "country": "SE",
+        "platforms": 6,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "int",
+        "Extra Fact5": "dep",
+        "image": "images/Ashford International.jpg"
+    },
+    {
+        "name": "Ashley Down",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "fut",
+        "image": "images/Ashley Down.jpg"
+    },
+    {
+        "name": "Aston",
+        "country": "WM",
+        "platforms": 2,
+        "operators": [
+            "WMT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "image": "images/Aston.jpg"
+    },
+    {
+        "name": "Attenborough",
+        "country": "EM",
+        "platforms": 2,
+        "operators": [
+            "EMR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": "images/Attenborough.jpg"
+    },
+    {
+        "name": "Avoncliff",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": ""
+    },
+    {
+        "name": "Axminster",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": "images/Axminster.jpg"
+    },
+    {
+        "name": "Balcombe",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "image": "images/Balcombe.jpg"
+    },
+    {
+        "name": "Balham",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "city",
+        "Extra Fact3": "int",
+        "image": "images/Balham.jpg"
+    },
+    {
+        "name": "Banbury",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "CH",
+            "GWR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "thro",
+        "Extra Fact2": "town",
+        "Extra Fact3": "int",
+        "image": "images/Banbury.jpg"
+    },
+    {
+        "name": "Bare Lane",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "sea",
+        "image": "images/Bare Lane.jpg"
+    },
+    {
+        "name": "Bargoed",
+        "country": "E",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "",
+        "image": "images/Bargoed.jpg"
+    },
+    {
+        "name": "Barking",
+        "country": "LON",
+        "platforms": 9,
+        "operators": [
+            "C2C",
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "city",
+        "Extra Fact3": "term",
+        "Extra Fact4": "int",
+        "image": "images/Barking.jpg"
+    },
+    {
+        "name": "Barking Riverside",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "term",
+        "image": "images/Barking Riverside.jpg"
+    },
+    {
+        "name": "Barnstaple",
+        "country": "SW",
+        "platforms": 1,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "",
+        "image": "images/Barnstaple.jpg"
+    },
+    {
+        "name": "Barnt Green",
+        "country": "WM",
+        "platforms": 4,
+        "operators": [
+            "WMT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "image": "images/Barnt Green.jpg"
+    },
+    {
+        "name": "Barrow-in-Furness",
+        "country": "NW",
+        "platforms": 3,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "sea",
+        "image": "images/Barrow-in-Furness.jpg"
+    },
+    {
+        "name": "Barry",
+        "country": "W",
+        "platforms": 3,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "town",
+        "image": "images/Barry.jpg"
+    },
+    {
+        "name": "Barry Docks",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "sea",
+        "image": "images/Barry Docks.jpg"
+    },
+    {
+        "name": "Barry Island",
+        "country": "W",
+        "platforms": 1,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "sea",
+        "image": "images/Barry Island.jpg"
+    },
+    {
+        "name": "Basingstoke",
+        "country": "SE",
+        "platforms": 5,
+        "operators": [
+            "SWR",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "town",
+        "Extra Fact3": "int",
+        "image": "images/Basingstoke.jpg"
+    },
+    {
+        "name": "Bath Spa",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "city",
+        "Extra Fact3": "uni",
+        "Extra Fact4": "int",
+        "Extra Fact5": "spa",
+        "image": "images/Bath Spa.jpg"
+    },
+    {
+        "name": "Battersea Park",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "SN",
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "word",
+        "image": "images/Battersea Park.jpg"
+    },
+    {
+        "name": "Beaulieu Park",
+        "country": "EA",
+        "platforms": 3,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "image": "images/Beaulieu Park.jpg"
+    },
+    {
+        "name": "Beckenham Hill",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "image": "images/Beckenham Hill.jpg"
+    },
+    {
+        "name": "Beckenham Junction",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "SER",
+            "SN"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "city",
+        "Extra Fact4": "word",
+        "Extra Fact5": "int",
+        "image": "images/Beckenham Junction.jpg"
+    },
+    {
+        "name": "Bedford",
+        "country": "EA",
+        "platforms": 5,
+        "operators": [
+            "EMR",
+            "LNWR",
+            "TL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "term",
+        "Extra Fact4": "jnc",
+        "Extra Fact5": "dep",
+        "Extra Fact6": "int",
+        "image": "images/Bedford.jpg"
+    },
+    {
+        "name": "Bedford St Johns",
+        "country": "EA",
+        "platforms": 1,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "dep",
+        "Extra Fact2": "town",
+        "Extra Fact3": "word",
+        "image": "images/Bedford St Johns.jpg"
+    },
+    {
+        "name": "Bedminster",
+        "country": "SW",
+        "platforms": 3,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "image": "images/Bedminster.jpg"
+    },
+    {
+        "name": "Bedwyn",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "image": "images/Bedwyn.jpg"
+    },
+    {
+        "name": "Beeston",
+        "country": "EM",
+        "platforms": 2,
+        "operators": [
+            "EMR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "image": "images/Beeston.jpg"
+    },
+    {
+        "name": "Berkhamsted",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "image": "images/Berkhamsted.jpg"
+    },
+    {
+        "name": "Berney Arms",
+        "country": "EA",
+        "platforms": 1,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Berney Arms.jpg"
+    },
+    {
+        "name": "Berwick",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Berwick.jpg"
+    },
+    {
+        "name": "Berwick-upon-Tweed",
+        "country": "NE",
+        "platforms": 2,
+        "operators": [
+            "LNER",
+            "TPE",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Berwick-upon-Tweed.jpg"
+    },
+    {
+        "name": "Beverley",
+        "country": "YH",
+        "platforms": 2,
+        "operators": [
+            "HT",
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Beverley.jpeg"
+    },
+    {
+        "name": "Bexleyheath",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bexleyheath.jpg"
+    },
+    {
+        "name": "Bicester North",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "CH"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bicester North.jpg"
+    },
+    {
+        "name": "Bicester Village",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "CH"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bicester Village.jpg"
+    },
+    {
+        "name": "Bidston",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "MER",
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "sea",
+        "Extra Fact5": "int",
+        "image": "images/Bidston.jpg"
+    },
+    {
+        "name": "Billingham",
+        "country": "NE",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Billingham.jpg"
+    },
+    {
+        "name": "Birchgrove",
+        "country": "W",
+        "platforms": 1,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Birchgrove.jpg"
+    },
+    {
+        "name": "Birmingham International",
+        "country": "WM",
+        "platforms": 5,
+        "operators": [
+            "AWC",
+            "LNWR",
+            "TFW",
+            "WMT",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "air",
+        "Extra Fact3": "city",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Birmingham International.jpg"
+    },
+    {
+        "name": "Birmingham Moor Street",
+        "country": "WM",
+        "platforms": 5,
+        "operators": [
+            "CH",
+            "WMT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "term",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Birmingham Moor Street.jpg"
+    },
+    {
+        "name": "Birmingham New Street",
+        "country": "WM",
+        "platforms": 13,
+        "operators": [
+            "AWC",
+            "LNWR",
+            "TFW",
+            "WMT",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Birmingham New Street.jpg"
+    },
+    {
+        "name": "Birmingham Snow Hill",
+        "country": "WM",
+        "platforms": 3,
+        "operators": [
+            "WMT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "int",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Birmingham Snow Hill.jpg"
+    },
+    {
+        "name": "Bishop Auckland",
+        "country": "NE",
+        "platforms": 1,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bishop Auckland.jpg"
+    },
+    {
+        "name": "Bishopbriggs",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bishopbriggs.jpg"
+    },
+    {
+        "name": "Blackburn",
+        "country": "NW",
+        "platforms": 4,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Blackburn.jpg"
+    },
+    {
+        "name": "Blackpool North",
+        "country": "NW",
+        "platforms": 6,
+        "operators": [
+            "AWC",
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "int",
+        "Extra Fact5": "town",
+        "image": "images/Blackpool North.jpg"
+    },
+    {
+        "name": "Blackpool Pleasure Beach",
+        "country": "NW",
+        "platforms": 1,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Blackpool Pleasure Beach.jpg"
+    },
+    {
+        "name": "Blackpool South",
+        "country": "NW",
+        "platforms": 1,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Blackpool South.jpg"
+    },
+    {
+        "name": "Blaenau Ffestiniog",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "word",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Bletchley",
+        "country": "SE",
+        "platforms": 6,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bletchley.jpg"
+    },
+    {
+        "name": "Bodmin Parkway",
+        "country": "SW",
+        "platforms": 3,
+        "operators": [
+            "GWR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "park",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bodmin Parkway.jpg"
+    },
+    {
+        "name": "Bognor Regis",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "word",
+        "Extra Fact5": "",
+        "image": "images/Bognor Regis.jpg"
+    },
+    {
+        "name": "Bolton",
+        "country": "NW",
+        "platforms": 5,
+        "operators": [
+            "NT",
+            "TPE"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "town",
+        "Extra Fact3": "int",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bolton.jpg"
+    },
+    {
+        "name": "Bournemouth",
+        "country": "SW",
+        "platforms": 4,
+        "operators": [
+            "SWR",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "int",
+        "Extra Fact4": "sea",
+        "Extra Fact5": "",
+        "image": "images/Bournemouth.jpg"
+    },
+    {
+        "name": "Bournville",
+        "country": "WM",
+        "platforms": 2,
+        "operators": [
+            "WMT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bournville.jpg"
+    },
+    {
+        "name": "Bracknell",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bracknell.jpg"
+    },
+    {
+        "name": "Bradford Forster Square",
+        "country": "YH",
+        "platforms": 4,
+        "operators": [
+            "LNER",
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "term",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Bradford Forster Square.jpg"
+    },
+    {
+        "name": "Bradford Interchange",
+        "country": "YH",
+        "platforms": 4,
+        "operators": [
+            "GC",
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "city",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Bradford Interchange.jpg"
+    },
+    {
+        "name": "Bradford-on-Avon",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bradford-on-Avon.jpg"
+    },
+    {
+        "name": "Braintree",
+        "country": "EA",
+        "platforms": 1,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Braintree.jpg"
+    },
+    {
+        "name": "Bridgend",
+        "country": "W",
+        "platforms": 3,
+        "operators": [
+            "GWR",
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "int",
+        "Extra Fact4": "term",
+        "Extra Fact5": "",
+        "image": "images/Bridgend.jpg"
+    },
+    {
+        "name": "Bridgwater",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bridgwater.jpg"
+    },
+    {
+        "name": "Brighton",
+        "country": "SE",
+        "platforms": 8,
+        "operators": [
+            "GX",
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "dep",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "sea",
+        "Extra Fact6": "uni",
+        "image": "images/Brighton.jpg"
+    },
+    {
+        "name": "Bristol Parkway",
+        "country": "SW",
+        "platforms": 4,
+        "operators": [
+            "GWR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "park",
+        "Extra Fact4": "dep",
+        "Extra Fact5": "int",
+        "image": "images/Bristol Parkway.jpg"
+    },
+    {
+        "name": "Bristol Temple Meads",
+        "country": "SW",
+        "platforms": 13,
+        "operators": [
+            "GWR",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "word",
+        "Extra Fact6": "thro",
+        "Extra Fact7": "dep",
+        "image": "images/Bristol Temple Meads.jpg"
+    },
+    {
+        "name": "Briton Ferry",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Briton Ferry.jpg"
+    },
+    {
+        "name": "Brixton",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "int",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Brixton.jpg"
+    },
+    {
+        "name": "Brockenhurst",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "term",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Brockenhurst.jpg"
+    },
+    {
+        "name": "Bromley North",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bromley North.jpg"
+    },
+    {
+        "name": "Bromley South",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "SER",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "int",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bromley South.jpg"
+    },
+    {
+        "name": "Bromsgrove",
+        "country": "WM",
+        "platforms": 4,
+        "operators": [
+            "WMT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bromsgrove.jpg"
+    },
+    {
+        "name": "Brundall",
+        "country": "EA",
+        "platforms": 2,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Brundall.jpg"
+    },
+    {
+        "name": "Brundall Gardens",
+        "country": "EA",
+        "platforms": 2,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Brundall Gardens.jpg"
+    },
+    {
+        "name": "Burgess Hill",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Burgess Hill.jpg"
+    },
+    {
+        "name": "Burnage",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Burnage.jpeg"
+    },
+    {
+        "name": "Burton-on-Trent",
+        "country": "WM",
+        "platforms": 2,
+        "operators": [
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Burton-on-Trent.jpg"
+    },
+    {
+        "name": "Bushey",
+        "country": "SE",
+        "platforms": 6,
+        "operators": [
+            "LNWR",
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "int",
+        "Extra Fact3": "fut",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Bushey.jpg"
+    },
+    {
+        "name": "Buxton",
+        "country": "EM",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Buxton.jpg"
+    },
+    {
+        "name": "Cadoxton",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cadoxton.jpg"
+    },
+    {
+        "name": "Caerphilly",
+        "country": "W",
+        "platforms": 3,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Caerphilly.jpg"
+    },
+    {
+        "name": "Caldicot",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Caldicot.jpg"
+    },
+    {
+        "name": "Cam and Dursley",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cam and Dursley.jpg"
+    },
+    {
+        "name": "Cameron Bridge",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cameron Bridge.jpg"
+    },
+    {
+        "name": "Camborne",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Camborne.jpg"
+    },
+    {
+        "name": "Cambridge",
+        "country": "EA",
+        "platforms": 8,
+        "operators": [
+            "GA",
+            "GN",
+            "TL",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "thro",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "city",
+        "Extra Fact5": "dep",
+        "Extra Fact6": "int",
+        "Extra Fact7": "uni",
+        "image": "images/Cambridge.jpg"
+    },
+    {
+        "name": "Cambridge North",
+        "country": "EA",
+        "platforms": 3,
+        "operators": [
+            "GA",
+            "GN"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "uni",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cambridge North.jpg"
+    },
+    {
+        "name": "Canonbury",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "int",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Canonbury.jpg"
+    },
+    {
+        "name": "Canterbury East",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Canterbury East.png"
+    },
+    {
+        "name": "Canterbury West",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Canterbury West.jpg"
+    },
+    {
+        "name": "Cardiff Bay",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "term",
+        "Extra Fact4": "sea",
+        "Extra Fact5": "uni",
+        "Extra Fact6": "fut",
+        "image": "images/Cardiff Bay.jpg"
+    },
+    {
+        "name": "Cardiff Central",
+        "country": "W",
+        "platforms": 8,
+        "operators": [
+            "GWR",
+            "TFW",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "term",
+        "Extra Fact4": "uni",
+        "Extra Fact5": "fut",
+        "Extra Fact6": "sea",
+        "Extra Fact7": "word",
+        "Extra Fact8": "dep",
+        "Extra Fact9": "jnc",
+        "Extra Fact10": "int",
+        "image": "images/Cardiff Central.jpg"
+    },
+    {
+        "name": "Cardiff Queen Street",
+        "country": "W",
+        "platforms": 5,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "uni",
+        "Extra Fact5": "int",
+        "Extra Fact6": "city",
+        "image": "images/Cardiff Queen Street.jpg"
+    },
+    {
+        "name": "Carlisle",
+        "country": "NW",
+        "platforms": 8,
+        "operators": [
+            "AWC",
+            "NT",
+            "SCR",
+            "TPE"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "term",
+        "Extra Fact3": "thro",
+        "Extra Fact4": "jnc",
+        "Extra Fact5": "in",
+        "image": "images/Carlisle.jpg"
+    },
+    {
+        "name": "Carmarthen",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "GWR",
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "",
+        "image": "images/Carmarthen.jpg"
+    },
+    {
+        "name": "Carnforth",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Carnforth.jpg"
+    },
+    {
+        "name": "Castle Cary",
+        "country": "SW",
+        "platforms": 3,
+        "operators": [
+            "GWR",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "word",
+        "Extra Fact5": "",
+        "image": "images/Castle Cary.jpg"
+    },
+    {
+        "name": "Caterham",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Caterham.jpg"
+    },
+    {
+        "name": "Cathays",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "uni",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cathays.jpg"
+    },
+    {
+        "name": "Cathcart",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cathcart.jpg"
+    },
+    {
+        "name": "Chatham",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SER",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Chatham.jpg"
+    },
+    {
+        "name": "Cheadle Hulme",
+        "country": "NW",
+        "platforms": 4,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "city",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cheadle Hulme.jpg"
+    },
+    {
+        "name": "Cheddington",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Cheddington.jpg"
+    },
+    {
+        "name": "Chelmsford",
+        "country": "EA",
+        "platforms": 2,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Chelmsford.jpg"
+    },
+    {
+        "name": "Cheltenham Spa",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR",
+            "TFW",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "spa",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "town",
+        "image": "images/Cheltenham Spa.jpg"
+    },
+    {
+        "name": "Chepstow",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Chepstow.jpg"
+    },
+    {
+        "name": "Chester",
+        "country": "NW",
+        "platforms": 7,
+        "operators": [
+            "AWC",
+            "NT",
+            "MER",
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "term",
+        "Extra Fact3": "dep",
+        "Extra Fact4": "jnc",
+        "Extra Fact5": "int",
+        "image": "images/Chester.jpg"
+    },
+    {
+        "name": "Chester-le-street",
+        "country": "NE",
+        "platforms": 2,
+        "operators": [
+            "TPE"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Chester-le-street.jpg"
+    },
+    {
+        "name": "Chesterfield",
+        "country": "EM",
+        "platforms": 3,
+        "operators": [
+            "EMR",
+            "XC"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "thro",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Chesterfield.jpg"
+    },
+    {
+        "name": "",
+        "country": "",
+        "platforms": 4,
+        "operators": [
+            ""
+        ],
+        "has terminus platforms": "",
+        "passing services regularly": "",
+        "Extra Fact1": "",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    }
+]

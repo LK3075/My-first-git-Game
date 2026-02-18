@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0788B0;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+.screen {
+    padding: 40px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #FAFAFA;
+    font-size: 2em;
+}
+
+.clues {
+    text-align: left;
+    margin: 60px auto;
+    width: 80%;
+    max-width: 700px;
+    padding: 14px;
+    color: #FFFFFF;
+    background: #454343;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: "Lucida Sans";
+}
+
+.guess-area {
+    margin: 20px 0;
+}
+
+input#guessInput {
+    padding: 10px;
+    font-size: 1em;
+    width: 60%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #228C0B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0c47b7;
+}
+
+.result {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+    color:#FFFFFF;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #0b6623;
+}
+
+/* ===== Station Image Styling ===== */
+#stationImage {
+    display: none;              /* hidden until round ends */
+    margin: 25px auto;          /* center horizontally */
+    max-width: 85%;
+    max-height: 400px;
+    height: auto;
+
+    border: 5px solid #1a73e8;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* When the image appears */
+#stationImage.show {
+    opacity: 1;
+    transform: scale(1);
+}
