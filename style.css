@@ -231,3 +231,65 @@ input#guessInput {
 
 #scoreDisplay { color: #EBEBEB; }      /* gold */
 #guessesDisplay { color: #EBEBEB; }    /* green */
+
+/* ================= MOBILE UI FIX ================= */
+@media only screen and (max-width: 600px) {
+
+    /* Make input + button large and tappable */
+    .guess-area {
+        flex-direction: column;
+        width: 95%;
+        gap: 18px;
+        margin-top: 25px;
+    }
+
+    .autocomplete-container {
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+    }
+
+    #guessInput {
+        width: 100%;
+        font-size: 1.5em;
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 1.5em;
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    /* Bigger play/menu buttons */
+    #playBtn, #playAgainBtn, #menuBtn {
+        width: 85%;
+        font-size: 1.6em;
+        padding: 18px;
+        margin: 10px auto;
+        display: block;
+        border-radius: 14px;
+    }
+
+    /* Stop HUD overlapping clues */
+    .hud {
+        position: static;     /* remove floating */
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-size: 1.4em;
+        gap: 25px;
+    }
+
+    /* Clues spacing so nothing touches */
+    .clues {
+        margin-top: 15px;
+    }
+
+    /* Slightly smaller image so it fits screen */
+    #stationImage {
+        max-height: 260px;
+    }
+}
