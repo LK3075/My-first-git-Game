@@ -2397,7 +2397,7 @@
         "operators": [
             "AWC",
             "LNWR",
-            "WMR",
+            "WMT",
             "XC"
         ],
         "has terminus platforms": "no",
@@ -2414,7 +2414,7 @@
         "country": "WM",
         "platforms": 2,
         "operators": [
-            "WMR"
+            "WMT"
         ],
         "has terminus platforms": "no",
         "passing services regularly": "no",
@@ -2969,7 +2969,7 @@
         "country": "WM",
         "platforms": 2,
         "operators": [
-            "WMR"
+            "WMT"
         ],
         "has terminus platforms": "no",
         "passing services regularly": "yes",
@@ -3552,6 +3552,452 @@
         "Extra Fact4": "",
         "Extra Fact5": "",
         "image": "images/Exmouth.jpg"
+    },
+    {
+        "name": "Fairwater",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Falkirk Grahamston",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Falkirk High",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "LUMO",
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Falmouth Docks",
+        "country": "SW",
+        "platforms": 1,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Falmouth Town",
+        "country": "SW",
+        "platforms": 1,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Fareham",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "GWR",
+            "SN",
+            "SWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Fareham.jpg"
+    },
+    {
+        "name": "Farnham",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Farnham.jpg"
+    },
+    {
+        "name": "Farringdon",
+        "country": "LON",
+        "platforms": 6,
+        "operators": [
+            "TFL",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "int",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Farringdon.jpg"
+    },
+    {
+        "name": "Faversham",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Faversham.jpg"
+    },
+    {
+        "name": "Feniton",
+        "country": "SW",
+        "platforms": 1,
+        "operators": [
+            "GWR",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Feniton.jpg"
+    },
+    {
+        "name": "Filton Abbey Wood",
+        "country": "SW",
+        "platforms": 4,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "city",
+        "Extra Fact5": "",
+        "image": "images/Filton Abbey Wood.jpg"
+    },
+    {
+        "name": "Finsbury Park",
+        "country": "LON",
+        "platforms": 12,
+        "operators": [
+            "GN",
+            "TFL",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "fut",
+        "Extra Fact6": "city",
+        "image": "images/Finsbury Park.jpg"
+    },
+    {
+        "name": "Fishguard Harbour",
+        "country": "W",
+        "platforms": 1,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "int",
+        "Extra Fact4": "sea",
+        "Extra Fact5": "town",
+        "image": "images/Fishguard Harbour.jpg"
+    },
+    {
+        "name": "Fitzwilliam",
+        "country": "YH",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Fitzwilliam.jpg"
+    },
+    {
+        "name": "Five Ways",
+        "country": "WM",
+        "platforms": 2,
+        "operators": [
+            "WMT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Five Ways.jpg"
+    },
+    {
+        "name": "Flint",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "AWC",
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Flint.jpg"
+    },
+    {
+        "name": "Flowery Field",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "word",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Flowery Field.jpg"
+    },
+    {
+        "name": "Ford",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Ford.jpg"
+    },
+    {
+        "name": "Fort William",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "int",
+        "Extra Fact3": "word",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Fort William.jpg"
+    },
+    {
+        "name": "Four Oaks",
+        "country": "WM",
+        "platforms": 3,
+        "operators": [
+            "WMT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Four Oaks.jpg"
+    },
+    {
+        "name": "Fratton",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "GWR",
+            "SN",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "dep",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "city",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Fratton.jpg"
+    },
+    {
+        "name": "Frome",
+        "country": "SW",
+        "platforms": 1,
+        "operators": [
+            "GWR",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Frome.jpeg"
+    },
+    {
+        "name": "Gatley",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gatley.jpg"
+    },
+    {
+        "name": "Gatwick Airport",
+        "country": "SE",
+        "platforms": 7,
+        "operators": [
+            "GX",
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "int",
+        "Extra Fact3": "air",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gatwick Airport.jpg"
+    },
+    {
+        "name": "Gilfach Fargoed",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gilfach Fargoed.jpg"
+    },
+    {
+        "name": "Gillingham (Dorset)",
+        "country": "",
+        "platforms": 4,
+        "operators": [
+            ""
+        ],
+        "has terminus platforms": "",
+        "passing services regularly": "",
+        "Extra Fact1": "",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Gillingham (Kent)",
+        "country": "",
+        "platforms": 4,
+        "operators": [
+            ""
+        ],
+        "has terminus platforms": "",
+        "passing services regularly": "",
+        "Extra Fact1": "",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
     },
     {
         "name": "",
