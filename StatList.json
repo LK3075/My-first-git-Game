@@ -5,7 +5,8 @@
         "platforms": 4,
         "operators": [
             "SER",
-            "TFL"
+            "TFL",
+            "TL"
         ],
         "has terminus platforms": "Yes",
         "passing services regularly": "no",
@@ -3969,6 +3970,1118 @@
     },
     {
         "name": "Gillingham (Dorset)",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gillingham (Dorset).jpg"
+    },
+    {
+        "name": "Gillingham (Kent)",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "SER",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "dep",
+        "Extra Fact4": "fut",
+        "Extra Fact5": "",
+        "image": "images/Gillingham (Kent).jpg"
+    },
+    {
+        "name": "Gipsy Hill",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gipsy Hill.jpg"
+    },
+    {
+        "name": "Glasgow Central",
+        "country": "S",
+        "platforms": 17,
+        "operators": [
+            "AWC",
+            "SCR",
+            "TPE",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "city",
+        "image": "images/Glasgow Central.jpg"
+    },
+    {
+        "name": "Glasgow Queen Street",
+        "country": "S",
+        "platforms": 9,
+        "operators": [
+            "LUMO",
+            "SCR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "city",
+        "image": "images/Glasgow Queen Street.jpg"
+    },
+    {
+        "name": "Glenrothes with Thornton",
+        "country": "S",
+        "platforms": 2,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Glenrothes with Thornton.jpg"
+    },
+    {
+        "name": "Glossop",
+        "country": "NW",
+        "platforms": 1,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Glossop.jpg"
+    },
+    {
+        "name": "Gloucester",
+        "country": "SW",
+        "platforms": 4,
+        "operators": [
+            "GWR",
+            "TFW",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "city",
+        "image": "images/Gloucester.jpg"
+    },
+    {
+        "name": "Godley",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Godley.jpg"
+    },
+    {
+        "name": "Gorton",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gorton.jpg"
+    },
+    {
+        "name": "Gospel Oak",
+        "country": "LON",
+        "platforms": 3,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "city",
+        "image": "images/Gospel Oak.jpg"
+    },
+    {
+        "name": "Grangetown",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Grangetown.jpg"
+    },
+    {
+        "name": "Grantham",
+        "country": "EM",
+        "platforms": 4,
+        "operators": [
+            "EMR",
+            "HT",
+            "LNER"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "int",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Grantham.jpg"
+    },
+    {
+        "name": "Gravesend",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "SER",
+            "TL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gravesend.jpg"
+    },
+    {
+        "name": "Grays",
+        "country": "EA",
+        "platforms": 3,
+        "operators": [
+            "C2C"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Grays.jpg"
+    },
+    {
+        "name": "Great Malvern",
+        "country": "WM",
+        "platforms": 2,
+        "operators": [
+            "GWR",
+            "WMT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Great Malvern.jpg"
+    },
+    {
+        "name": "Great Yarmouth",
+        "country": "EA",
+        "platforms": 3,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": " yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "sea",
+        "Extra Fact5": "town",
+        "image": "images/Great Yarmouth.jpg"
+    },
+    {
+        "name": "Grimsby Town",
+        "country": "YH",
+        "platforms": 3,
+        "operators": [
+            "EMR",
+            "NT",
+            "TPE"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Grimsby Town.jpg"
+    },
+    {
+        "name": "Guide Bridge",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "dep",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Guide Bridge.jpg"
+    },
+    {
+        "name": "Guildford",
+        "country": "SE",
+        "platforms": 8,
+        "operators": [
+            "GWR",
+            "SWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "int",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Guildford.jpg"
+    },
+    {
+        "name": "Gunnersbury",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gunnersbury.jpg"
+    },
+    {
+        "name": "Gunnislake",
+        "country": "SW",
+        "platforms": 1,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Gunnislake.jpg"
+    },
+    {
+        "name": "Hackney Central",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "int",
+        "Extra Fact3": "city",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hackney Central.jpg"
+    },
+    {
+        "name": "Hackney Downs",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "GA",
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "int",
+        "Extra Fact4": "city",
+        "Extra Fact5": "",
+        "image": "images/Hackney Downs.jpg"
+    },
+    {
+        "name": "Hackney Wick",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hackney Wick.jpg"
+    },
+    {
+        "name": "Hadfield",
+        "country": "NW",
+        "platforms": 1,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hadfield.jpg"
+    },
+    {
+        "name": "Halifax",
+        "country": "YH",
+        "platforms": 2,
+        "operators": [
+            "GC",
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Halifax.jpg"
+    },
+    {
+        "name": "Hampton Court",
+        "country": "",
+        "platforms": 2,
+        "operators": [
+            "SWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "city",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hampton Court.jpg"
+    },
+    {
+        "name": "Handforth",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Handforth.jpg"
+    },
+    {
+        "name": "Harpenden",
+        "country": "EA",
+        "platforms": 4,
+        "operators": [
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Harpenden.jpg"
+    },
+    {
+        "name": "Harrogate",
+        "country": "YH",
+        "platforms": 2,
+        "operators": [
+            "LNER",
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "term",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Harrogate.jpg"
+    },
+    {
+        "name": "Harrow and Wealdstone",
+        "country": "SE",
+        "platforms": 6,
+        "operators": [
+            "LNWR",
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "int",
+        "Extra Fact4": "city",
+        "Extra Fact5": "",
+        "image": "images/Harrow and Wealdstone.jpg"
+    },
+    {
+        "name": "Hartford",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hartford.jpg"
+    },
+    {
+        "name": "Hartlepool",
+        "country": "NE",
+        "platforms": 3,
+        "operators": [
+            "GC",
+            "NT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "sea",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hartlepool.jpg"
+    },
+    {
+        "name": "Hassocks",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "GC",
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hassocks.jpg"
+    },
+    {
+        "name": "Hastings",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "SER",
+            "SN"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "int",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Hastings.jpg"
+    },
+    {
+        "name": "Havant",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "SN",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "int",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Havant.jpg"
+    },
+    {
+        "name": "Hayes",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "SER"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hayes.jpg"
+    },
+    {
+        "name": "Hayes and Harlington",
+        "country": "LON",
+        "platforms": 5,
+        "operators": [
+            "GWR",
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hayes and Harlington.jpg"
+    },
+    {
+        "name": "Haymarket",
+        "country": "S",
+        "platforms": 5,
+        "operators": [
+            "AWC",
+            "LNER",
+            "SCR",
+            "TPE",
+            "XC"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "dep",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "int",
+        "Extra Fact4": "fut",
+        "Extra Fact5": "dep",
+        "image": "images/Haymarket.jpg"
+    },
+    {
+        "name": "Haywards Heath",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "GX",
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Haywards Heath.jpg"
+    },
+    {
+        "name": "Hazel Grove",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Hazel Grove.jpg"
+    },
+    {
+        "name": "Heald Green",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Heald Green.jpg"
+    },
+    {
+        "name": "Heath High Level",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Heath High Level.jpg"
+    },
+    {
+        "name": "Heath Low Level",
+        "country": "W",
+        "platforms": 1,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "city",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Heath Low Level.jpg"
+    },
+    {
+        "name": "Heathrow Terminal 2 and 3",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "HX",
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "int",
+        "Extra Fact4": "air",
+        "Extra Fact5": "city",
+        "image": "images/Heathrow Terminal 2 and 3.jpg"
+    },
+    {
+        "name": "Heathrow Terminal 4",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "int",
+        "Extra Fact4": "air",
+        "Extra Fact5": "city",
+        "image": "images/Heathrow Terminal 4.jpg"
+    },
+    {
+        "name": "Heathrow Terminal 5",
+        "country": "LON",
+        "platforms": 4,
+        "operators": [
+            "HX",
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "int",
+        "Extra Fact4": "air",
+        "Extra Fact5": "city",
+        "image": "images/Heathrow Terminal 5.jpg"
+    },
+    {
+        "name": "Heaton Chapel",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Heaton Chapel.jpg"
+    },
+    {
+        "name": "Helensburgh Central",
+        "country": "S",
+        "platforms": 3,
+        "operators": [
+            "SCR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Helensburgh Central.jpg"
+    },
+    {
+        "name": "Hemel Hempstead",
+        "country": "EA",
+        "platforms": 4,
+        "operators": [
+            "LNWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hemel Hempstead.jpg"
+    },
+    {
+        "name": "Hengoed",
+        "country": "W",
+        "platforms": 2,
+        "operators": [
+            "TFW"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hengoed.jpg"
+    },
+    {
+        "name": "Henley-on-Thames",
+        "country": "SE",
+        "platforms": 1,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Hereford",
+        "country": "WM",
+        "platforms": 4,
+        "operators": [
+            "GWR",
+            "TFW",
+            "WMT"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "thro",
+        "Extra Fact3": "jnc",
+        "Extra Fact4": "int",
+        "Extra Fact5": "city",
+        "image": "images/Hereford.jpg"
+    },
+    {
+        "name": "Hertford East",
+        "country": "EA",
+        "platforms": 2,
+        "operators": [
+            "GA"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hertford East.jpg"
+    },
+    {
+        "name": "High Wycombe",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "CH"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/High Wycombe.jpg"
+    },
+    {
+        "name": "Higham",
+        "country": "SE",
+        "platforms": 2,
+        "operators": [
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Higham.jpg"
+    },
+    {
+        "name": "Highbridge and Burnham",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "sea",
+        "Extra Fact4": "town",
+        "Extra Fact5": "",
+        "image": "images/Highbridge and Burnham.jpg"
+    },
+    {
+        "name": "Highbury and Islington",
+        "country": "LON",
+        "platforms": 8,
+        "operators": [
+            "GN",
+            "TFL"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "term",
+        "Extra Fact3": "int",
+        "Extra Fact4": "city",
+        "Extra Fact5": "",
+        "image": "images/Highbury and Islington.jpg"
+    },
+    {
+        "name": "Hitchin",
+        "country": "EA",
+        "platforms": 2,
+        "operators": [
+            "GN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "thro",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hitchin.jpg"
+    },
+    {
+        "name": "Holmes Chapel",
+        "country": "NW",
+        "platforms": 2,
+        "operators": [
+            "NT"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "word",
+        "Extra Fact2": "town",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Holmes Chapel.jpg"
+    },
+    {
+        "name": "Holyhead",
+        "country": "W",
+        "platforms": 3,
+        "operators": [
+            "AWC",
+            "TFW"
+        ],
+        "has terminus platforms": "yes",
+        "passing services regularly": "no",
+        "Extra Fact1": "int",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Holyhead.jpg"
+    },
+    {
+        "name": "Homerton",
+        "country": "LON",
+        "platforms": 2,
+        "operators": [
+            "TFL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "city",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Homerton.jpg"
+    },
+    {
+        "name": "Honiton",
+        "country": "SW",
+        "platforms": 2,
+        "operators": [
+            "GWR",
+            "SWR"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Honiton.jpg"
+    },
+    {
+        "name": "Horley",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "yes",
+        "Extra Fact1": "town",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Horley.jpg"
+    },
+    {
+        "name": "Horsham",
+        "country": "SE",
+        "platforms": 4,
+        "operators": [
+            "SN",
+            "TL"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "term",
+        "Extra Fact2": "jnc",
+        "Extra Fact3": "town",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Horsham.jpg"
+    },
+    {
+        "name": "Hove",
+        "country": "SE",
+        "platforms": 3,
+        "operators": [
+            "SN"
+        ],
+        "has terminus platforms": "no",
+        "passing services regularly": "no",
+        "Extra Fact1": "jnc",
+        "Extra Fact2": "sea",
+        "Extra Fact3": "city",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": "images/Hove.jpg"
+    },
+    {
+        "name": "Huddersfield",
         "country": "",
         "platforms": 4,
         "operators": [
@@ -3984,7 +5097,39 @@
         "image": ""
     },
     {
-        "name": "Gillingham (Kent)",
+        "name": "Hull",
+        "country": "",
+        "platforms": 4,
+        "operators": [
+            ""
+        ],
+        "has terminus platforms": "",
+        "passing services regularly": "",
+        "Extra Fact1": "",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Huntingdon",
+        "country": "",
+        "platforms": 4,
+        "operators": [
+            ""
+        ],
+        "has terminus platforms": "",
+        "passing services regularly": "",
+        "Extra Fact1": "",
+        "Extra Fact2": "",
+        "Extra Fact3": "",
+        "Extra Fact4": "",
+        "Extra Fact5": "",
+        "image": ""
+    },
+    {
+        "name": "Hyde North",
         "country": "",
         "platforms": 4,
         "operators": [

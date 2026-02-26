@@ -24,7 +24,8 @@ const operatorKey = {
     "AWC": "Avanti West Coast",
     "XC": "Cross Country",
     "TWM": "Tyne and Wear Metro",
-    "GA": "Greater Anglia"
+    "GA": "Greater Anglia",
+    "HX": "Heathrow Express"
 };
 
 const countryKey = {
@@ -37,7 +38,7 @@ const funKey ={
     "word":"This station has more than one word in its name",
     "term":"Services can often terminate here",
     "thro":"This station has through lines",
-    "dep": "This station is near depot",
+    "dep": "This station is near a depot",
     "jnc":"Services can branch off the line after departing before reaching another station",
     "int":"This station is a common interchange for other services/transport",
     "sea":"This station is near the seaside",
